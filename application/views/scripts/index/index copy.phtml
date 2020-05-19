@@ -1,0 +1,36 @@
+<div class="row">
+
+    <div class="col-12">&nbsp;</div>
+    <div class="col-12">&nbsp;</div>
+    <div class="col-12">&nbsp;</div>
+    <div class="col-12">&nbsp;</div>
+    <div class="col-12">&nbsp;</div>
+    <div class="col-12">&nbsp;</div>
+
+    <div class="col-3">&nbsp;</div>
+    <div class="col-6 row">
+
+        <?php for($i=1;$i<=4;$i++):?>
+        <?php
+        switch($i):
+            case 1:$bg="bg-success";$url=$this->baseUrl() ."/principal";$module="PRINCIPAL";break;
+            case 2:$bg="bg-primary";$url=$this->baseUrl() ."/ecole";$module="ECOLE";break;
+            case 3:$bg="bg-secondary";$url=$this->baseUrl() ."/caisse";$module="CAISSE";break;
+            case 4:$bg="bg-indigo";$url=$this->baseUrl() ."/note";$module="NOTE";break;
+            case 5:$bg="bg-danger";break;
+            case 6:$bg="bg-info";break;
+        endswitch;
+        ?>
+        <div class="col-6 mg-t-20">
+            <div class="card">
+                <div class="card-header <?php echo $bg; ?> text-white tx-bold">MODULE <?php echo $i; ?></div>
+                <div class="card card-body <?php echo $bg; ?> text-white">
+                    <a href="<?php echo $url; ?>" class="text-white"><h1><i class="fa fa-cog"></i> <?php echo $module; ?></h1></a>
+                </div>    
+            </div>
+        </div>
+        <?php endfor; ?>
+
+    </div>
+
+</div>

@@ -1,0 +1,15 @@
+<?php echo $this->message ?>
+
+
+<?php if ('development' == APPLICATION_ENV): ?>;
+Exception information:
+
+Message: <?php $this->exception->getMessage() ?>
+Stack trace:
+
+<pre><?php $this->exception->getTraceAsString() ?></pre>
+Request Parameters:
+
+<pre><?php var_dump($this->request->getParams()) ?></pre>
+  
+<?php endif ?>

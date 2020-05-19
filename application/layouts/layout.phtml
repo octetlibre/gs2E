@@ -1,0 +1,83 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>KINARA</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  
+  <!-- vendor css -->
+  <link href="<?php echo $this->baseUrl(); ?>/private/azia/lib/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <!-- azia CSS -->
+  <link rel="stylesheet" href="<?php echo $this->baseUrl(); ?>/private/azia/css/azia.css">
+ 
+
+
+    
+
+
+</head>
+
+
+<body class="az-light az-body az-dashboard-eight">
+
+
+    <!-- header -->
+    <div class="az-header az-header-primary az-header-dashboard-four-">
+        <div class="container-fluid">
+
+            <div class="az-header-left">
+              <a href="#" class="az-logo"><img src="<?php echo $this->baseUrl() . "/public/images/logoorange.gif"; ?>">&nbsp;SMS<span>AFFAIRES</span></a>
+              <a href="" id="azNavShow" class="az-header-menu-icon d-lg-none"><span></span></a>
+            </div><!-- az-header-left -->
+
+            <div class="az-header-center">
+            </div><!-- az-header-center -->
+
+
+            <div class="az-header-right">
+              <div class="dropdown az-profile-menu az-header-notification">
+              <a href="" class="new-"><i class="fa fa-user"></i></a>
+                <div class="dropdown-menu">
+                  <div class="az-dropdown-header d-sm-none">
+                    <a href="" class="az-header-arrow"><i class="icon ion-md-arrow-back"></i></a>
+                  </div>
+                  <div class="az-header-profile">
+                    <small class="tx-bold"><?php echo $this->user['user'];?></small>
+                    <span class="tx-gray"><?php echo $this->user['groupe'];?></span>
+                  </div><!-- az-header-profile -->
+
+                  <a href="<?php echo $this->baseUrl() . "/auth/logout"; ?>" class="dropdown-item"><i class="fa fa-power-off"></i> Déconnexion</a>
+                </div><!-- dropdown-menu -->
+              </div>
+            </div><!-- az-header-right -->
+
+    </div><!-- container -->
+    </div><!-- az-header -->
+
+
+
+    <script src="<?php echo $this->baseUrl(); ?>/private/azia/lib/jquery/jquery.min.js"></script>
+    <script src="<?php echo $this->baseUrl(); ?>/private/azia/js/azia.js"></script>
+
+    <div class="az-content az-content-dashboard-four ">
+      <?php echo $this->layout()->content; ?>
+    </div><!-- az-content -->
+
+    <div class="az-footer">
+      <?php //echo $this->partial('commons/footer.phtml', array('user' => $this->user)); ?>
+    </div><!-- az-footer -->
+
+   
+    
+  </body>
+
+
+</html>
+

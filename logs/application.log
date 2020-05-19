@@ -1,0 +1,32 @@
+DEBUT:2020-05-11 17:17:44|CRONJOB
+{"client":"AKILI4DEV","publipostage":"PUB0BB1DF1BC3","msisdn":"08550777","sms":"Bonjour AAAA, j'aime BBBB. venez CCC","result":"Operation timed out (60)<br \/>\n","statut":"KO"}|CRONJOB
+{"client":"AKILI4DEV","publipostage":"PUB0BB1DF1BC3","msisdn":"08550777","sms":"Bonjour 1111, j'aime 2222. venez 3333","result":"Operation timed out (60)<br \/>\n","statut":"KO"}|CRONJOB
+{"client":"AKILI4DEV","publipostage":"PUB0BB1DF1BC3","msisdn":"08550777","sms":"Bonjour AZZZZ, j'aime BVBVBV. venez HJHJHJH","result":"Operation timed out (60)<br \/>\n","statut":"KO"}|CRONJOB
+FIN: 2020-05-11 17:19:15|CRONJOB
+DEBUT:2020-05-11 17:22:04|CRONJOB
+ENVOI SMS:2020-05-11 17:22:34|DATA:{"client":"AKILI4DEV","publipostage":"PUB0BB1DF1BC3","msisdn":"08550777","sms":"Bonjour AAAA, j'aime BBBB. venez CCC","result":"Operation timed out (60)<br \/>\n","statut":"KO"}|CRONJOB
+ENVOI SMS:2020-05-11 17:23:04|DATA:{"client":"AKILI4DEV","publipostage":"PUB0BB1DF1BC3","msisdn":"08550777","sms":"Bonjour 1111, j'aime 2222. venez 3333","result":"Operation timed out (60)<br \/>\n","statut":"KO"}|CRONJOB
+ENVOI SMS:2020-05-11 17:23:34|DATA:{"client":"AKILI4DEV","publipostage":"PUB0BB1DF1BC3","msisdn":"08550777","sms":"Bonjour AZZZZ, j'aime BVBVBV. venez HJHJHJH","result":"Operation timed out (60)<br \/>\n","statut":"KO"}|CRONJOB
+FIN: 2020-05-11 17:23:34|CRONJOB
+2020-05-11T20:12:20+00:00 INFO (6): /orange-smsaffaires/client/auth/login/c/D2NSNQNvUWhXbgEyVjdXYAEmUyoBMg==|{"username":"akili4dev","password":"P@ssword"}|AKILI4DEV|127.0.0.1
+2020-05-13T23:50:00+00:00 INFO (6): /orange-smsaffaires/client/auth/logout/c/D2NSNQNvUWhXbgEyVjdXYAEmUyoBMg==|null|AKILI4DEV|127.0.0.1
+2020-05-14T16:48:13+00:00 INFO (6): /orange-smsaffaires/client/auth/login/c/D2NSNQNvUWhXbgEyVjdXYAEmUyoBMg==|{"username":"akili4dev","password":"P@ssword"}|AKILI4DEV|127.0.0.1
+2020-05-14T18:35:52+00:00 WARN (4): /orange-smsaffaires/setting/formule/action-module|{"formule":"2","module":"6"}|DIOMANDE KEVIN SIBAN|127.0.0.1
+2020-05-14T18:36:25+00:00 INFO (6): /orange-smsaffaires/client/auth/logout/c/D2NSNQNvUWhXbgEyVjdXYAEmUyoBMg==|null|AKILI4DEV|127.0.0.1
+2020-05-14T18:36:40+00:00 INFO (6): /orange-smsaffaires/client/auth/login/c/D2NSNQNvUWhXbgEyVjdXYAEmUyoBMg==|{"username":"akili4dev","password":"P@ssword"}|AKILI4DEV|127.0.0.1
+2020-05-14T21:10:18+00:00 INFO (6): /orange-smsaffaires/client/sondage/add|{"reference":"SND24B10C442C","sondage":"SONDAGE SND24B10C442C","keyword":"AKILI4DEV","receiver":"7827","message-success":"test","message-failure":"test"}|AKILI4DEV|127.0.0.1
+2020-05-14T23:14:27+00:00 WARN (4): /orange-smsaffaires/client/sondage/add-candidat|{"reference":"A1","candidat":"yao jean","client":"1","sondage":""}|AKILI4DEV|127.0.0.1
+2020-05-14T23:18:13+00:00 WARN (4): /orange-smsaffaires/client/sondage/edit-candidat|{"id":"1","candidat":"yao jean","reference":"A1"}|AKILI4DEV|127.0.0.1
+2020-05-14T23:18:24+00:00 WARN (4): /orange-smsaffaires/client/sondage/edit-candidat|{"id":"1","candidat":"yao jean claude","reference":"A1"}|AKILI4DEV|127.0.0.1
+2020-05-14T23:20:06+00:00 WARN (4): /orange-smsaffaires/client/sondage/add-candidat|{"reference":"A1","candidat":"yao jean","sondage":"1"}|AKILI4DEV|127.0.0.1
+2020-05-14T23:20:14+00:00 WARN (4): /orange-smsaffaires/client/sondage/edit-candidat|{"id":"1","candidat":"YAO JEAN claude","reference":"A1"}|AKILI4DEV|127.0.0.1
+2020-05-14T23:57:10+00:00 WARN (4): /orange-smsaffaires/client/sondage/statut-candidat|{"id":"1"}|AKILI4DEV|127.0.0.1
+2020-05-14T23:57:14+00:00 WARN (4): /orange-smsaffaires/client/sondage/statut-candidat|{"id":"1"}|AKILI4DEV|127.0.0.1
+2020-05-15T00:05:21+00:00 WARN (4): /orange-smsaffaires/client/sondage/statut-candidat|{"id":"1"}|AKILI4DEV|127.0.0.1
+2020-05-15T00:05:28+00:00 WARN (4): /orange-smsaffaires/client/sondage/statut-candidat|{"id":"1"}|AKILI4DEV|127.0.0.1
+2020-05-15T00:10:03+00:00 WARN (4): /orange-smsaffaires/client/sondage/statut|{"id":"1"}|AKILI4DEV|127.0.0.1
+2020-05-15T00:10:20+00:00 WARN (4): /orange-smsaffaires/client/sondage/statut|{"id":"1"}|AKILI4DEV|127.0.0.1
+2020-05-15T00:13:23+00:00 WARN (4): /orange-smsaffaires/client/sondage/statut-candidat|{"id":"1"}|AKILI4DEV|127.0.0.1
+2020-05-15T00:13:33+00:00 WARN (4): /orange-smsaffaires/client/sondage/statut-candidat|{"id":"1"}|AKILI4DEV|127.0.0.1
+2020-05-19T08:01:33+00:00 INFO (6): /orange-smsaffaires/client/auth/login/c/D2NSNQNvUWhXbgEyVjdXYAEmUyoBMg==|{"username":"akili4dev","password":"P@ssword"}|AKILI4DEV|127.0.0.1
+2020-05-19T11:11:35+00:00 INFO (6): /orange-smsaffaires/client/auth/logout/c/D2NSNQNvUWhXbgEyVjdXYAEmUyoBMg==|null|AKILI4DEV|127.0.0.1

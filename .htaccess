@@ -1,0 +1,24 @@
+# Apache
+RewriteEngine On
+
+#RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [NC,L]
+RewriteRule ^.*$ index.php [NC,L]
+
+#Sécurité : Ne pas autoriser le parcours de répertoires
+#Options All
+
+#Configuration PHP
+#php_value magic_quotes_gpc off
+#php_value safe_mode on
+#php_value register_globals off
+#php_value short_open_tag on
+
+# Zend
+SetEnv APPLICATION_ENV "development"
+#SetEnv APPLICATION_ENV "production"
+
